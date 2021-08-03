@@ -6,7 +6,7 @@ resources:
     type: GitRepo
     configuration:
       # SCM integration where the repository is located
-      gitProvider: {{vcs200831/jfrog-pipelines-simple-example}} # this will be replaced from values.yml
+      gitProvider: {{Values.myRepo.gitProvider}} # this will be replaced from values.yml
       # Repository path, including org name/repo name
       path: {{vcs200831/jfrog-pipelines-simple-example}} # this will be replaced from values.yml
       branches:
